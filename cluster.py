@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 """The Class of Cluster
 
 the module describe the different method and afford methods to clustering the data
@@ -68,7 +67,7 @@ class CLUSTER:
         return ('KMedoids',
                 label,
                 center,
-                )
+                 )
 
     def dbscan(self):
         """
@@ -131,3 +130,15 @@ class CLUSTER:
         :return:
         """
         kpro = KPrototypes(n_clusters=self.K)
+
+    def similarity(self):
+        """
+
+        :return:
+        """
+
+    def result(self):
+        """
+
+        :return:
+        """
